@@ -1,11 +1,12 @@
-import { Index } from "@com"
+import { Outlet } from "react-router-dom"
+import Layout from "@com-layout"
 
 function App() {
 
   return (
-   <>
-   <Index/>
-   </>
+   <Layout>
+   <Outlet/>
+   </Layout>
   )
 }
 

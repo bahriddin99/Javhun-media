@@ -8,7 +8,12 @@ export default defineConfig({
   resolve: {
     alias: {
       "@" : path.resolve(__dirname, "./src"),
-      "@com" : path.resolve(__dirname, "./src/component")
+      "@pages" : path.resolve(__dirname, "./src/pages"),
+      "@com" : path.resolve(__dirname, "./src/component"),
+      "@router" : path.resolve(__dirname, "./src/router/routers"),
+      "@com-header" : path.resolve(__dirname, "./src/component/header/header"),
+      "@com-footer" : path.resolve(__dirname, "./src/component/footer/footer"),
+      "@com-layout" : path.resolve(__dirname, "./src/component/layout/layout")
     }
   }
 })
